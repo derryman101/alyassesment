@@ -5,7 +5,7 @@ describe('API Endpoints', () => {
   test('GET / returns welcome message', async () => {
     const res = await request(app).get('/');
     expect(res.statusCode).toBe(200);
-    expect(res.body.message).toBe('Hello from NodeApp CI/CD Demo!');
+    expect(res.body.message).toBe('Hello from 10aly assement derry no!');
     expect(res.body).toHaveProperty('timestamp');
   });
 
